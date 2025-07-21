@@ -27,3 +27,4 @@ CREATE TRIGGER update_admin_updated_at
     BEFORE UPDATE ON admin 
     FOR EACH ROW 
     EXECUTE FUNCTION update_updated_at_column();
+

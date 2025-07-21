@@ -1,5 +1,7 @@
 import express from 'express';
 import adminRoutes from './adminRoutes.js';
+import clientRoutes from './clientRoutes.js';
+import appointmentRoutes from './appointmentRoutes.js';
 
 const router = express.Router();
 
@@ -14,6 +16,14 @@ router.get('/health', (req, res) => {
 
 // Admin routes (includes login)
 router.use('/admin', adminRoutes);
+
+// Client routes (includes all client routes)
+router.use('/clients', clientRoutes);
+
+// Appointment routes (includes all appointment routes)
+router.use('/appointments', appointmentRoutes);
+
+
 
 
 export default router;
