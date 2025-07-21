@@ -1,4 +1,4 @@
-import AdminRepository from '../repositories/AdminRepository.js';
+import AdminRepository from '../repositories/adminRepository.js';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 

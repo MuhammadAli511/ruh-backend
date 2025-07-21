@@ -1,4 +1,4 @@
-import AdminService from '../services/AdminService.js';
+import AdminService from '../services/adminService.js';
 
 // Middleware to authenticate JWT tokens
 const authenticateToken = async (req, res, next) => {

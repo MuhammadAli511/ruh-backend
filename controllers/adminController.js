@@ -1,4 +1,4 @@
-import AdminService from '../services/AdminService.js';
+import AdminService from '../services/adminService.js';
 
 class AdminController {
 

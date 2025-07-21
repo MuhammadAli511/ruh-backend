@@ -17,13 +17,10 @@ router.get('/health', (req, res) => {
 // Admin routes (includes login)
 router.use('/admin', adminRoutes);
 
-// Client routes (includes all client routes)
+// Client routes
 router.use('/clients', clientRoutes);
 
-// Appointment routes (includes all appointment routes)
+// Appointment routes
 router.use('/appointments', appointmentRoutes);
-
-
-
 
 export default router;
